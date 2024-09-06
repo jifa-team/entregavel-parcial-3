@@ -37,12 +37,19 @@ ep3/
 
 ```
 ### O que cada parte faz:
+
 **lib:**
+
 **src.team.jifa.app:**
+
 **src.team.jifa.controller:**
+
 **src.team.jifa.model:**
+
 **src.team.jifa.repository:**
+
 **src.team.jifa.service:**
+
 **.gitignore:**
   
 
