@@ -4,7 +4,7 @@ import java.util.List;
 
 public class PagamentoService {
     public void addPagamento(Pagamento pagamento) {
-        // Logic to add Pagamento
+        pagamentoRepository
     }
 
     public Pagamento getPagamentoById(int id) {
