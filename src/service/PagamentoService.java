@@ -4,16 +4,17 @@ import java.util.List;
 
 public class PagamentoService {
     public void addPagamento(Pagamento pagamento) {
-        pagamentoRepository
+        pagamentoRepository.addPagamento(pagamento);
     }
 
     public Pagamento getPagamentoById(int id) {
         // Logic to get Pagamento by ID
-        return new Pagamento(id, null, 0, new java.util.Date());
+        return pagamentoRepository.getPagamentoById(id);
     }
 
     public List<Pagamento> getAllPagamentos() {
         // Logic to get all Pagamentos
-        return null;
+        return pagamentoRepository.getAllPagamentos();
+
     }
 }
