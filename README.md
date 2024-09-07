@@ -135,4 +135,4 @@ Para executar o projeto, localize a classe principal (src.team.jifa.app.App.java
 
 ## Licença
 
-Criar texto sobre...
+Você pode visualizar a licença do projeto [aqui](LICENSE.txt).
