@@ -5,7 +5,12 @@ import repository.PacienteRepository;
 import java.util.List;
 
 public class PacienteService {
-    private final PacienteRepository pacienteRepository = new PacienteRepository();
+    private final PacienteRepository pacienteRepository;
+
+    public PacienteService(PacienteRepository pacienteRepository) {
+        this.pacienteRepository = pacienteRepository;
+    }
+
     public void addPaciente(Paciente paciente) {
         pacienteRepository.addPaciente(paciente);
     }

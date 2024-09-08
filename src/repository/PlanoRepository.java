@@ -5,9 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PlanoRepository {
+    private static int contadorId = 1;
     private List<Plano> planos = new ArrayList<>();
 
     public void addPlano(Plano plano) {
+        plano.setPlanoId(contadorId++);
         planos.add(plano);
     }
 

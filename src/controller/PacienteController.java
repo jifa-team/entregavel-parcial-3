@@ -1,13 +1,14 @@
 package controller;
+
 import service.PacienteService;
 import model.Paciente;
 import java.util.List;
 
 public class PacienteController {
-    private PacienteService pacienteService;
+    private final PacienteService pacienteService;
 
-    public PacienteController() {
-        this.pacienteService = new PacienteService();
+    public PacienteController(PacienteService pacienteService) {
+        this.pacienteService = pacienteService;
     }
 
     public void addPaciente(Paciente paciente) {
@@ -22,4 +23,3 @@ public class PacienteController {
         return pacienteService.getAllPacientes();
     }
 }
-
