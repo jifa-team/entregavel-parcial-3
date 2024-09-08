@@ -3,7 +3,7 @@
 
 Esse repositório representa a 3ª Sprint do Projeto, e tem por objetivo a confecção das classes, usando a linguagem [<a href="https://emoji.gg/emoji/java"><img src="https://cdn3.emoji.gg/emojis/java.png" width="32px" height="32px" alt="java"></a>](https://emoji.gg/emoji/java). As classes materializarão regra de negócio a ser desenvolvida, no nosso caso, um sistema de agendamento para o uma clínica odontólogica.
 
-## Equipe Responsável pela execução
+## Equipe Responsável pela execução do Projeto
 
 - Adão Eduardo Gomes de Oliveira | Matricula: 2023010692
 - Alexandra Silva de Paula | Matrícula: 2023018832
