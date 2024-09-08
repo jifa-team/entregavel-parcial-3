@@ -1,15 +1,18 @@
 package service;
+
 import model.Plano;
+import repository.PlanoRepository;
 import java.util.List;
 
 public class PlanoService {
+    private final PlanoRepository planoRepository = new PlanoRepository();
+
     public void addPlano(Plano plano) {
         planoRepository.addPlano(plano);
     }
 
     public Plano getPlanoById(int id) {
-        return planoRepository.getPacienteById(id);
-        return new Plano(id, "Nome Plano", "Descrição", "Cobertura", new java.util.Date(), new java.util.Date(), 0);
+        return planoRepository.getPlanoById(id);
     }
 
     public List<Plano> getAllPlanos() {
