@@ -13,15 +13,13 @@ public class App {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        // Instanciar repositórios
+
         PacienteRepository pacienteRepository = new PacienteRepository();
         PlanoRepository planoRepository = new PlanoRepository();
 
-        // Instanciar serviços
         PacienteService pacienteService = new PacienteService(pacienteRepository);
         PlanoService planoService = new PlanoService(planoRepository);
 
-        // Instanciar controladores
         PacienteController pacienteController = new PacienteController(pacienteService);
         PlanoController planoController = new PlanoController(planoService);
 
