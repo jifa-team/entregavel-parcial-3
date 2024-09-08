@@ -1,13 +1,14 @@
 package controller;
+
 import model.Plano;
 import service.PlanoService;
 import java.util.List;
 
 public class PlanoController {
-    private PlanoService planoService;
+    private final PlanoService planoService;
 
-    public PlanoController() {
-        this.planoService = new PlanoService();
+    public PlanoController(PlanoService planoService) {
+        this.planoService = planoService;
     }
 
     public void addPlano(Plano plano) {

@@ -23,19 +23,15 @@ ep3/
 
 ├── src/
 
-│      └── team/
+│          ├── app/
 
-│          └── jifa/
+│         ├── controller/
 
-|                 ├── app/
+│         ├── model/
 
-│                 ├── controller/
+│         ├── repository/
 
-│                 ├── model/
-
-│                 ├── repository/
-
-│                 └── service/
+│         └── service/
 
 ├── .gitignore
 
@@ -46,15 +42,15 @@ ep3/
 
 **lib:**
 
-**src.team.jifa.app:**
+**src.app:** Contém a classe principal da aplicação, que é a entrada inicial para a execução do programa.
 
-**src.team.jifa.controller:**
+**src.controller:** Contém as classes responsáveis pelo gerenciamento das solicitações do usuário e pela coordenação das respostas. Os controladores recebem as requisições, interagem com os serviços e retornam as respostas apropriadas.
 
-**src.team.jifa.model:**
+**src.team.jifa.model:** Contém as classes que representam o modelo de dados do aplicativo. Estas são as entidades que serão manipuladas pela aplicação, muitas vezes refletindo a estrutura das tabelas no banco de dados.
 
-**src.team.jifa.repository:**
+**src.team.jifa.repository:** Contém as classes responsáveis pela comunicação com o banco de dados. Estas classes gerenciam operações CRUD (Create, Read, Update, Delete) e consultas específicas para cada entidade.
 
-**src.team.jifa.service:**
+**src.team.jifa.service:** Contém as classes que implementam a lógica de negócios da aplicação. Estas classes são responsáveis por processar dados, aplicar regras de negócios e realizar operações mais complexas que podem envolver múltiplos repositórios ou entidades.
 
 **.gitignore:**
   
@@ -135,7 +131,7 @@ Se o projeto não for reconhecido automaticamente como um projeto Java, você po
 
 ## Executando o Projeto
 
-Para executar o projeto, localize a classe principal (src.team.jifa.app.App.java) e execute-a usando as ferramentas da sua IDE.
+Para executar o projeto, localize a classe principal (src.app.App.java) e execute-a usando as ferramentas da sua IDE.
 
 
 

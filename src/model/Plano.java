@@ -12,7 +12,7 @@ public class Plano {
     private double valorMensal;
 
     public Plano(int planoId, String nomePlano, String descricao, String cobertura, Date vigenciaInicio,
-                 Date vigenciaFim, double valorMensal) {
+            Date vigenciaFim, double valorMensal) {
         this.planoId = planoId;
         this.nomePlano = nomePlano;
         this.descricao = descricao;
@@ -23,20 +23,61 @@ public class Plano {
     }
 
     // Getters and setters
-    public int getPlanoId() { return planoId; }
-    public void setPlanoId(int planoId) { this.planoId = planoId; }
-    public String getNomePlano() { return nomePlano; }
-    public void setNomePlano(String nomePlano) { this.nomePlano = nomePlano; }
-    public String getDescricao() { return descricao; }
-    public void setDescricao(String descricao) { this.descricao = descricao; }
-    public String getCobertura() { return cobertura; }
-    public void setCobertura(String cobertura) { this.cobertura = cobertura; }
-    public Date getVigenciaInicio() { return vigenciaInicio; }
-    public void setVigenciaInicio(Date vigenciaInicio) { this.vigenciaInicio = vigenciaInicio; }
-    public Date getVigenciaFim() { return vigenciaFim; }
-    public void setVigenciaFim(Date vigenciaFim) { this.vigenciaFim = vigenciaFim; }
-    public double getValorMensal() { return valorMensal; }
-    public void setValorMensal(double valorMensal) { this.valorMensal = valorMensal; }
+    public int getPlanoId() {
+        return planoId;
+    }
+
+    public void setPlanoId(int planoId) {
+        this.planoId = planoId;
+    }
+
+    public String getNomePlano() {
+        return nomePlano;
+    }
+
+    public void setNomePlano(String nomePlano) {
+        this.nomePlano = nomePlano;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public String getCobertura() {
+        return cobertura;
+    }
+
+    public void setCobertura(String cobertura) {
+        this.cobertura = cobertura;
+    }
+
+    public Date getVigenciaInicio() {
+        return vigenciaInicio;
+    }
+
+    public void setVigenciaInicio(Date vigenciaInicio) {
+        this.vigenciaInicio = vigenciaInicio;
+    }
+
+    public Date getVigenciaFim() {
+        return vigenciaFim;
+    }
+
+    public void setVigenciaFim(Date vigenciaFim) {
+        this.vigenciaFim = vigenciaFim;
+    }
+
+    public double getValorMensal() {
+        return valorMensal;
+    }
+
+    public void setValorMensal(double valorMensal) {
+        this.valorMensal = valorMensal;
+    }
 
     @Override
     public String toString() {
@@ -51,4 +92,3 @@ public class Plano {
                 '}';
     }
 }
-

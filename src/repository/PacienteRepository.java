@@ -5,9 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PacienteRepository {
+    private static int contadorId = 1;
     private List<Paciente> pacientes = new ArrayList<>();
 
     public void addPaciente(Paciente paciente) {
+        paciente.setPacienteId(contadorId++);
         pacientes.add(paciente);
     }
 
@@ -24,4 +26,3 @@ public class PacienteRepository {
         return pacientes;
     }
 }
-
