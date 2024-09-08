@@ -5,23 +5,15 @@ import repository.ConsultaRepository;
 import java.util.List;
 
 public class ConsultaService {
-    private ConsultaRepository consultaRepository;
-
-
-    public ConsultaService(ConsultaRepository consultaRepository) {
-        this.consultaRepository = consultaRepository;
-    }
-
+    private final ConsultaRepository consultaRepository = new ConsultaRepository();
 
     public void addConsulta(Consulta consulta) {
         consultaRepository.addConsulta(consulta);
     }
 
-
     public Consulta getConsultaById(int id) {
         return consultaRepository.getConsultaById(id);
     }
-
 
     public List<Consulta> getAllConsultas() {
         return consultaRepository.getAllConsultas();
