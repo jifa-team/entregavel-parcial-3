@@ -5,10 +5,10 @@ import model.Dentista;
 import java.util.List;
 
 public class DentistaController {
-    private DentistaService dentistaService;
+    private final DentistaService dentistaService;
 
-    public DentistaController() {
-        this.dentistaService = new DentistaService();
+    public DentistaController(DentistaService dentistaService) {
+        this.dentistaService = dentistaService;
     }
 
     public void addDentista(Dentista dentista) {

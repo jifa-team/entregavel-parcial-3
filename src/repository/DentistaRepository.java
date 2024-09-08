@@ -6,9 +6,11 @@ import java.util.List;
 import model.Dentista;
 
 public class DentistaRepository {
+    private static int contadorId = 1;
     private List<Dentista> dentistas = new ArrayList<>();
 
     public void addDentista(Dentista dentista) {
+        dentista.setDentistaId(contadorId++);
         dentistas.add(dentista);
     }
 
