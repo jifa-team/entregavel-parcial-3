@@ -17,19 +17,15 @@ ep3/
 
 ├── src/
 
-│      └── team/
+│          ├── app/
 
-│          └── jifa/
+│         ├── controller/
 
-|                 ├── app/
+│         ├── model/
 
-│                 ├── controller/
+│         ├── repository/
 
-│                 ├── model/
-
-│                 ├── repository/
-
-│                 └── service/
+│         └── service/
 
 ├── .gitignore
 
