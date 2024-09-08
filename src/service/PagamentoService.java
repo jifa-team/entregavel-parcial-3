@@ -17,6 +17,9 @@ public class PagamentoService {
 
     public List<Pagamento> getAllPagamentos() {
         return pagamentoRepository.getAllPagamentos();
-
     }
+     
+    public void updatePagamento(Pagamento pagamento) {
+
+        pagamentoRepository.updatePagamento(pagamento);
 }
