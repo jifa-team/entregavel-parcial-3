@@ -1,7 +1,7 @@
 
 # Entregável Parcial 3
 
-Esse repositório representa a 3ª Sprint do Projeto, e tem por objetivo a confecção das classes, usando a linguagem [<a href="https://emoji.gg/emoji/java"><img src="https://cdn3.emoji.gg/emojis/java.png" width="32px" height="32px" alt="java"></a>](https://emoji.gg/emoji/java). As classes materializarão regra de negócio a ser desenvolvida, no nosso caso, um sistema de agendamento para o uma clínica odontólogica.
+Esse repositório representa a 3ª Sprint do Projeto, e tem por objetivo a confecção das classes, usando a linguagem <img src="https://cdn3.emoji.gg/emojis/java.png" width="32px" height="32px" alt="java"></a>. As classes materializarão regra de negócio a ser desenvolvida, no nosso caso, um sistema de agendamento para o uma clínica odontólogica.
 
 ## Equipe Responsável pela execução do Projeto
 
@@ -69,7 +69,7 @@ ep3/
 
 ## Como Importar o Projeto
 
-**IntelliJ IDEA**
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg" width="32px" height="32px" alt="IntelliJ Idea"> **IntelliJ IDEA**
   
 
  - Abra o IntelliJ IDEA
@@ -83,7 +83,7 @@ ep3/
    O IntelliJ IDEA deve reconhecer automaticamente a estrutura do
    projeto Java
 
-**Eclipse**
+<img src="https://cdn3.emoji.gg/emojis/2434_EclipseIDE.png" width="32px" height="32px" alt="EclipseIDE"> **Eclipse**
 
 - Abra o Eclipse
 
@@ -97,7 +97,7 @@ ep3/
 
   
 
-**Visual Studio Code**
+<img src="https://cdn3.emoji.gg/emojis/9540-vscode.png" width="32px" height="32px" alt="VSCode"> **Visual Studio Code**
 
 - Abra o Visual Studio Code
 
@@ -111,7 +111,7 @@ O VS Code deve reconhecer automaticamente a estrutura do projeto Java
 
   
 
-**NetBeans**
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Apache_NetBeans_Logo.svg" width="32px" height="32px" alt="NetBeans"> **NetBeans**
 
 - Abra o NetBeans
 
@@ -130,13 +130,6 @@ Se o projeto não for reconhecido automaticamente como um projeto Java, você po
   - Localize as configurações do projeto na sua IDE
 
 - Defina a pasta src como diretório de origem (source directory)
-
-  
-
-## Executando o Projeto
-
-Para executar o projeto, localize a classe principal (src.app.App.java) e execute-a usando as ferramentas da sua IDE.
-
 
 
 ## Licença
