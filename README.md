@@ -11,6 +11,10 @@ Esse repositório representa a 3ª Sprint do Projeto, e tem por objetivo a confe
 - Gustavo Ferreira Reinaldo | Matricula: 2023010997
 - Sayonara Arcanjo da Silva | Matrícula: 2023011107
 
+## Demonstração - Vídeo explicativo
+
+https://github.com/user-attachments/assets/b2c9f3c8-564c-46f1-8adb-fcf90a77d9d7
+
 ## Estrutura do Projeto
 
   
